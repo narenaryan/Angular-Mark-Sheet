@@ -28,7 +28,6 @@ app.controller('MainController', function($scope) {
 
       $scope.add_student = function()
       {
-          debugger;
           // Get modal values using Angular's jqLite
           var name = angular.element(document.querySelector("#name"));
           var social_mark = angular.element(document.querySelector("#social"));
